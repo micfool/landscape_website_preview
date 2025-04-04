@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { MdOutlineDesignServices, MdOutlineEco, MdEmail } from "react-icons/md";
 import { BsFillSunFill, BsArrowRight } from "react-icons/bs";
-import Background from "../images/background.jpg";
+import Background from "../images/background.png";
 
 
 const Home = () => {
@@ -116,7 +116,7 @@ const Home = () => {
             className="text-5xl md:text-6xl xl:text-8xl font-bold mb-4 text-center"
           >
             {/*/!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! title */}
-            hello worlddanwkdl
+            YOUR BUSINESS NAME HERE
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
