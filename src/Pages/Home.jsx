@@ -9,6 +9,8 @@ import {
 } from "react-icons/fa";
 import { MdOutlineDesignServices, MdOutlineEco, MdEmail } from "react-icons/md";
 import { BsFillSunFill, BsArrowRight } from "react-icons/bs";
+import Background from "../images/background.jpg";
+
 
 const Home = () => {
   const [isHovered, setIsHovered] = useState(null);
@@ -100,8 +102,9 @@ const Home = () => {
         <div
           className="absolute inset-0 bg-cover bg-center z-0"
           style={{
+            /*/!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! backgroundimage */
             backgroundImage:
-              "url('https://cdn.mos.cms.futurecdn.net/aFp9vf4sxrnPDaoi5aXQrF-1280-80.jpg')",
+              `url(${Background})`,
           }}
         ></div>
 
@@ -112,6 +115,7 @@ const Home = () => {
             transition={{ duration: 0.8 }}
             className="text-5xl md:text-6xl xl:text-8xl font-bold mb-4 text-center"
           >
+            {/*/!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! title */}
             hello worlddanwkdl
           </motion.h1>
           <motion.p
