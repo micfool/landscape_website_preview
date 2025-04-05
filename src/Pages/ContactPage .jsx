@@ -132,9 +132,9 @@ const ContactPage = () => {
                       Our Location
                     </h3>
                     <p className="text-gray-600">
-                      123 Garden Drive
+                      123 Dan Road 
                       <br />
-                      Greenville, CA 90210
+                      Sydney, Australia
                     </p>
                   </div>
                 </div>
@@ -145,7 +145,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Phone</h3>
-                    <p className="text-gray-600">(555) 123-4567</p>
+                    <p className="text-gray-600">0401 452 395</p>
                     <p className="text-gray-500 text-sm">Mon-Fri: 8am - 6pm</p>
                   </div>
                 </div>
@@ -156,7 +156,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Email</h3>
-                    <p className="text-gray-600">info@natureartistry.com</p>
+                    <p className="text-gray-600">dansprop75@gmail.com</p>
                     <p className="text-gray-500 text-sm">
                       We respond within 24 hours
                     </p>
@@ -392,10 +392,10 @@ const ContactPage = () => {
             className="rounded-lg overflow-hidden shadow-lg h-96"
           >
             {/* This would normally be a Google Maps or other map embed */}
-
+              {/**<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424402.6861861317!2d150.61385170000003!3d-33.795639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c6dc7e0a32507%3A0xdc0274d6363a8ed4!2sDans%20property%20maintenance%20and%20pressure%20cleaning!5e0!3m2!1sen!2sau!4v1743816805928!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
             <div className="w-full h-screen">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424146.70720334613!2d150.60233964832355!3d-33.84723494884586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney%20NSW%2C%20Australia!5e0!3m2!1sen!2slk!4v1743742634205!5m2!1sen!2slk"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424402.6861861317!2d150.61385170000003!3d-33.795639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c6dc7e0a32507%3A0xdc0274d6363a8ed4!2sDans%20property%20maintenance%20and%20pressure%20cleaning!5e0!3m2!1sen!2sau!4v1743816805928!5m2!1sen!2sau" 
                 className="w-full h-full border-0"
                 allowFullScreen=""
                 loading="lazy"

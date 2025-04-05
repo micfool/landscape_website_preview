@@ -127,7 +127,7 @@ const Navbar = () => {
                   isScrolled ? "text-gray-800" : "text-white"
                 }`}
               >
-                Company Name
+                Dans Property Maintenance and Pressure Cleaning
               </span>
             </motion.div>
 

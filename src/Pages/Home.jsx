@@ -116,7 +116,7 @@ const Home = () => {
             className="text-5xl md:text-6xl xl:text-8xl font-bold mb-4 text-center"
           >
             {/*/!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! title */}
-            YOUR BUSINESS NAME HERE
+            Dans Property Maintenance and Pressure Cleaning
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
